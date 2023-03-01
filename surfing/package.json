@@ -1,0 +1,22 @@
+{
+  "name": "surfing.app",
+  "version": "1.0.0",
+  "description": "Surfing data",
+  "main": "surfing.app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon surfing.app.js"
+  },
+  "keywords": [],
+  "author": "Ashish Vashisht",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "redis": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
